@@ -117,6 +117,8 @@ def open_emoji():
         stiker_frame.place(x=1400, y=430)
         is_visible = True
 
+print("Hello World")
+
 
 text_smail = CTkButton(stiker_frame, width=50, height=50, text="😄", font=("Segoe UI Emoji", 24), command=emoji)
 text_smail.pack(padx=10, pady=10, side="left")
